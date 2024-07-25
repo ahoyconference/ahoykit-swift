@@ -13,13 +13,13 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/ahoyconference/ahoywebrtc-swift.git", from: "1.8.0"),
+        .package(url: "https://github.com/ahoyconference/ahoywebrtc-swift.git", from: "1.9.0"),
     ],
     targets: [
         .binaryTarget(
             name: "AhoyKit",
-            url: "https://demo.ahoyrtc.com/AhoyKit.xcframework.6.0.zip",
-            checksum: "ca9d0fc2b54eff6d9b90530064a8cf3c1bcefa88251fa8c385aa315794940d48"
+            url: "https://demo.ahoyrtc.com/AhoyKit.xcframework.6.1.zip",
+            checksum: "c44ab815e41dc5c7e126d1605e99f6801213fc480771462efb33660988e3b855"
         )
     ]
 )
